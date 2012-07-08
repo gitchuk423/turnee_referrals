@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  client_name: MyString
+  client_email: MyString
+  public_comments: MyText
+
+two:
+  client_name: MyString
+  client_email: MyString
+  public_comments: MyText

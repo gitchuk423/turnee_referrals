@@ -1,0 +1,15 @@
+<% provide(:title, "Sign in") %>
+<h1>Sign in</h1>
+
+<div class="row">
+	<div class="span6 offset5">
+  		<div class="btn-group">
+	  		<button class="btn btn-large dropdown-toggle" data-toggle="dropdown"> Choose a Network
+	    		<span class="caret"></span>
+	  		</button>
+	  		<ul class="dropdown-menu">
+	  			<li> <%= link_to "LinkedIn", controller: "sessions", action: "linkedin" %> </li>
+	  		</ul>
+		</div><!-- /btn-group -->
+	</div>
+</div>

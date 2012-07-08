@@ -1,0 +1,11 @@
+<% provide(:title, "Connections") %>
+<h2>Select a Connection for Referral</h2>
+
+<ul class="connections">
+  <% @connections.each do |connection| %>
+    <li>
+		 <%= "#{connection.first_name} #{connection.last_name} "%>
+		 <%= link_to "Create Referral", create_referral_path(id: connection.id) %>
+    </li>
+  <% end %>
+</ul>
